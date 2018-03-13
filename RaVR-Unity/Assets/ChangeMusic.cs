@@ -19,6 +19,6 @@ public class ChangeMusic : MonoBehaviour {
 	}
 
     public void change() {
-        manager.GetComponent<AudioManager>().setClip(src, clip);
+        StartCoroutine(manager.GetComponent<AudioManager>().setClip(src, clip));
     }
 }
