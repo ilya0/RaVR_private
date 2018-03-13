@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour {
     public GameObject[] audioSources; // array of sources for each type of sound
     public AudioClip[,] clips; // 2D array of audio clips. First param is type of sound; second is clip number.
     public AudioClip[] oneDClip; // 1 dimentional clip array to edit the 2d one in inspector
+    private double[] timesRem;
 
 	// Use this for initialization
 	void Start () {
@@ -17,16 +18,33 @@ public class AudioManager : MonoBehaviour {
                 clips[x, y] = oneDClip[x*clips.GetLength(1) + y];
             }
         }
+        timesRem = new double[audioSources.Length];
         for (int i = 0; i < audioSources.Length; i++)
         {
-            audioSources[i].GetComponent<AudioSource>().loop = true;
             audioSources[i].GetComponent<AudioSource>().Play();
         }
+        setClip(1, 0);
+        setClip(0, 0);
     }
-	
-	// Update is called once per frame
-	void Update () {
-        
+
+    // Update is called once per frame
+    void Update()
+    {
+        for (int i = 0; i < audioSources.Length; i++)
+        {
+            if (timesRem[i] <= 0)
+            {
+                audioSources[i].GetComponent<AudioSource>().Play();
+                if (audioSources[i].GetComponent<AudioSource>().clip != null)
+                    timesRem[i] = audioSources[i].GetComponent<AudioSource>().clip.length - 0.075;
+                else
+                    timesRem[i] = 7.5;
+            }
+            else
+            {
+                timesRem[i] -= Time.deltaTime;
+            }
+        }
 
     }
 
