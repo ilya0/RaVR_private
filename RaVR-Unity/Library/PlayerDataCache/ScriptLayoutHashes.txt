@@ -178,6 +178,7 @@ d2f5a7716b4289ae5a1527a76e916505 Assembly-CSharp.dll:HoloToolkit.Unity.SortingLa
 1ffcf79b2faeecabecd3aed35f004a71 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.CompoundButtonText
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.KeyboardManager
 dfa416d091c6a74c4e4ef8229469c6ec Assembly-CSharp.dll:HoloToolkit.Sharing.VoiceChat.MicrophoneTransmitter
+d14242337eb4e64ba1f9ddda8eff4c7b Assembly-CSharp.dll:.CubeButton
 b39fddbe4ede4fafe2e1641885144305 Assembly-CSharp.dll:HoloToolkit.Sharing.SharingWorldAnchorManager
 cb3299cc3a2d8ae01f30f501bb96d4cf Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.AttachToController
 6f104984604a6ec9b27767e5cbdae14c Assembly-CSharp.dll:.DisplayDependentObjectActivator
@@ -238,7 +239,7 @@ d7abe84a44f6aed10aea7132d8e34f79 Assembly-CSharp.dll:HoloToolkit.Unity.Boundary.
 1193c002177eba10253315561d91d3d2 Assembly-CSharp.dll:HoloToolkit.Unity.UX.Parabola
 524356edcc2977b98283bcbebbcc6c06 Assembly-CSharp.dll:HoloToolkit.Unity.UX.BoundingBox
 5affa557520c9b1ad67d2162d963829a Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.UICollection
-5a27aff39acf561ee2bd23e5914967a8 Assembly-CSharp.dll:.AudioManager
+54792a1fa75dea6f3b1e617e4f7f1b45 Assembly-CSharp.dll:.AudioManager
 b39fddbe4ede4fafe2e1641885144305 Assembly-CSharp.dll:HoloToolkit.Unity.WorldAnchorManager
 149f5f6ff9877e1760e88054c331199f Assembly-CSharp.dll:HoloToolkit.Unity.SpatialMapping.RemoteMappingManager
 1618d4ac525a97d307c501388f0baadb Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.SimpleSinglePointerSelector
