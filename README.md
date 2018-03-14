@@ -33,6 +33,7 @@ In graphics, understanding how to create actionable content, while creating a in
 
 ## Accomplishments that we're proud of
 
+ i really likeed doing the graphics
 
 
 ## What we learned
