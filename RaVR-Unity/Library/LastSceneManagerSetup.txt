@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CubeGenTest.unity
+- path: Assets/BoothTest.unity
   isLoaded: 1
   isActive: 1

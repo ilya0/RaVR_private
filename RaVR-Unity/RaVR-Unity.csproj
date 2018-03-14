@@ -226,6 +226,8 @@
     <Compile Include="Assets\Emmiter.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\MoveCubeToPlayer.cs" />
+    <Compile Include="Assets\Scripts\RotateCube.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
