@@ -20,7 +20,7 @@ Djs can now play music and also create innovative ways to allow fans and patrons
 
 ## How we built it
 
-During this project we used, Unity, Microsoft Hololens and C# to build the various elements in virtual environment. We used the  Maya, Blender, Cinema4d, aftereffects for the creation of the various graphics and animations in the enviroments. And we used ableton and fruityloops to edit and create music as well as gain inspiration for dj controls and effects.
+During this project we used, Unity, Microsoft Hololens and C# to build the various elements in virtual environment. We used the  Maya, Blender, Cinema4d, Adobe After Effects for the creation of the various graphics and animations in the enviroments. And we used Ableton Traktor, and Fruity Loops Studio 12 to edit and create music as well as gain inspiration for dj controls and effects.
 
 
 ## Challenges we ran into
@@ -31,21 +31,18 @@ Another challenge we ran into, was creating a networked solution for the hololen
 
 In graphics, understanding how to create actionable content, while creating a interesting environment, ease of use and understandable actions was a challenge we had to over come.
 
-- The main challenge with this project was handling the hololens platform and since I have never interacted with a Hololens device before it took me a while to learn the inputs and I wasn’t able to figure out how to network two devices with each other, but I did get very close!
-
+During the production of the sound samples, one major issue we ran into was how the software FL Studio 12 would export .mp3 files with a few milliseconds of empty sound space at the head and tail end of the sample track as well as changing the length of the actual audio in the clip thus rendering it impossible to have loops in the correct time signature so we had to scrap all the samples we had made and make new samples in a .wav format.
 
 ## Accomplishments that we're proud of
 
-None of our team members had experience with the hololens before the hackathon started.  Our software engineeers are high school students, 16 and 14 years old.  
+ i really likeed doing the graphics
 
-I am actually proud that I was able to figure out how to use the hololens and that I got extremely close to figuring out the networking aspect of it. The fact that I got really close is an accomplishment because I had figured out a lot in a minimal amount of time.
 
 ## What we learned
 
-Spacial understanding.  Augmented Reality development hurdles including anchor points and user interaction with gameObjects in AR.  Optimization within Hololens.  Time management.
+Having absolutely no experience with VR let alone AR, buy working on this project I had a whole change in perspective of how lines of code on a screen can be layered on corporeal entities to bring the digital and analog worlds together. (Ritesh Trikha)
+
 
 ## What's next for rAvR
-
-Graaphical optimaztion for various delivery outlets.  Refine the networking to allow a seemless mutliplayer experience.
 
 
