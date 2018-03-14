@@ -8,13 +8,15 @@ No longer are music shows a one way experience where djs play to a crowd, fans n
 
 Fans can interact with music in various ways. By selecting various blocks and elements on the blocks, which the dj has created, fans can create different basslines, vocals or samples. 
 
-The performers can also assign various spaces and locations of a venue with dynamic sounds or visuals, where fans can move to physically and mix in music or samples into the currently playing tracks by the peformers.
+The performers can also assign various spaces and locations of a venue with dynamic sounds or visuals, where fans can move to physically and mix in music or samples into the currently playing tracks by the performers.
 
 
 
 ## Inspiration
 
-As a group of musicians, graphics designers and computer scientists, we have been seeking a new way to experience music and music events with live performers in a new an innovative way. rAvR came to us, after thinking about how music, music performance and the show experience could be differently thought about in the context of using AR or VR. We also wanted a new lay of interactivity between the performer and fans, in a way that could never been possible without AR or VR.
+As a group of musicians, graphics designers and computer scientists, we have been seeking a new way to experience music and music events with live performers in a new an innovative way. 
+
+rAvR came to us, after thinking about how music, music performance and the show experience could be differently thought about in the context of using AR or VR. We also wanted a new lay of interactivity between the performer and fans, in a way that could never been possible without AR or VR.
 
 
 
@@ -28,7 +30,7 @@ Djs can now play music and also create innovative ways to allow fans and patrons
 
 ## How we built it
 
-During this project we used, Unity, Microsoft Hololens and C# to build the various elements in virtual environment. We used the  Maya, Blender, Cinema4d, Adobe After Effects for the creation of the various graphics and animations in the enviroments. And we used Ableton Traktor, and Fruity Loops Studio 12 to edit and create music as well as gain inspiration for dj controls and effects.
+During this project we used, Unity, Microsoft Hololens and C# to build the various elements in virtual environment. We used the  Maya, Blender, Cinema4d, Adobe After Effects for the creation of the various graphics and animations in the environments. And we used Ableton Traktor, and Fruity Loops Studio 12 to edit and create music as well as gain inspiration for dj controls and effects.
 
 
 ## Challenges we ran into
@@ -43,13 +45,20 @@ During the production of the sound samples, one major issue we ran into was how 
 
 ## Accomplishments that we're proud of
 
-Being able to go from absolute zero on skill with VR/AR and Unity to being able to make small edits to projects in Unity and understand the workflow invovled with making any game or realtime application, not nessicerily in AR/VR.
+Being able to go from absolute zero on skill with VR/AR and Unity to being able to make small edits to projects in Unity and understand the workflow involved with making any game or realtime application, not nessicerily in AR/VR.
 
 ## What we learned
 
-Having absolutely no experience with VR let alone AR, buy working on this project I had a whole change in perspective of how lines of code on a screen can be layered on corporeal entities to bring the digital and analog worlds together. (Ritesh Trikha)
+Having absolutely no experience with VR let alone AR, by working on this project I had a whole change in perspective of how lines of code on a screen can be layered on corporeal entities to bring the digital and analog worlds together. (Ritesh Trikha)
+
 
 
 ## What's next for rAvR
 
+* Network Connectivity, one or more headsets connecting to a base station
+* Optimizing code and graphics for hololens performance
+* Creating a google carbord version for those that don't own hololens
+* Graphics upgrades
+* Show effects, light shows, virtual cannons, lazers
+* Djs controls
 
