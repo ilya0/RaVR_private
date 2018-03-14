@@ -49,7 +49,7 @@ Being able to go from absolute zero on skill with VR/AR and Unity to being able 
 
 ## What we learned
 
-Having absolutely no experience with VR let alone AR, by working on this project I had a whole change in perspective of how lines of code on a screen can be layered on corporeal entities to bring the digital and analog worlds together. (Ritesh Trikha)
+Having absolutely no experience with VR let alone AR, by working on this project I had a whole change in perspective of how lines of code on a screen can be layered on corporeal entities to bring the digital and analog worlds together.
 
 
 
