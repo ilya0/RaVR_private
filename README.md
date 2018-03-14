@@ -33,13 +33,15 @@ In graphics, understanding how to create actionable content, while creating a in
 
 ## Accomplishments that we're proud of
 
- i really likeed doing the graphics
+None of our team members had experience with the hololens before the hackathon started.  Our software engineeers are high school students, 16 and 14 years old.  
 
 
 ## What we learned
 
-
+Spacial understanding.  Augmented Reality development hurdles including anchor points and user interaction with gameObjects in AR.  Optimization within Hololens.  Time management.
 
 ## What's next for rAvR
+
+Graaphical optimaztion for various delivery outlets.  Refine the networking to allow a seemless mutliplayer experience.
 
 
