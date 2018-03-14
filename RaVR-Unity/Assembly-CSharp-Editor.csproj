@@ -136,16 +136,9 @@
      <None Include="Assets\HoloToolkit\UX\Shaders\unlit_vert_color.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandardInput.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\VertexColorWithLighting.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\HoloToolkitCommon.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\FastConfigurable\Shaders\FastConfigurable.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\WaterDisplacement.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\FastConfigurable\Shaders\FastConfigurable2Sided.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\atmosphereEffect.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\atmosphereEffect.shader" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\Fire.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\VertexColorWithLighting.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitNoDepthTest.shader" />
      <None Include="Assets\HoloToolkit\UX\Fonts\LICENSE.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurableTransparent.shader" />
@@ -179,7 +172,6 @@
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFMobileCommon.cginc" />
      <None Include="Assets\HoloToolkit\UX\Shaders\Occlusion.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\MovieMask.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\Fire.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\StereoImage.shader" />
      <None Include="Assets\HoloToolkit\License.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.shader" />
@@ -187,7 +179,6 @@
      <None Include="Assets\HoloToolkit\Common\Shaders\WindowOcclusion.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\UX\Shaders\3DTextShader.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\WaterDisplacement.cginc" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
