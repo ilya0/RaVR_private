@@ -25,6 +25,11 @@ During this project we used, Unity, Microsoft Hololens and C# to build the vario
 
 ## Challenges we ran into
 
+The first challenge what considering what environment and device to build on. We initially wanted to build on a VR platform but quickly realized that using and AR setup would allow patrons and musicians to experience the music shows in realtime, in real life with added lay of experience.
+
+Another challenge we ran into, was creating a networked solution for the hololenses. There was loose documentation for networking of the hololenses and so creating custom code to show all the objects in all the hololenses in real time, was quite challenging. 
+
+In graphics, understanding how to create actionable content, while creating a interesting environment, ease of use and understandable actions was a challenge we had to over come.
 
 ## Accomplishments that we're proud of
 
@@ -32,4 +37,8 @@ During this project we used, Unity, Microsoft Hololens and C# to build the vario
 
 ## What we learned
 
+
+
 ## What's next for rAvR
+
+
