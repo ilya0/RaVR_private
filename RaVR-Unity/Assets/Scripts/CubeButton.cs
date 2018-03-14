@@ -11,9 +11,9 @@ public class CubeButton : MonoBehaviour, IInputClickHandler {
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        //    if (player.GetComponent<AudioManager>().isRunning(buttonNum))
-        //        player.GetComponent<AudioManager>().disable(buttonNum, 0);
-        //    else
+            if (player.GetComponent<AudioManager>().isRunning(buttonNum))
+                player.GetComponent<AudioManager>().disable(buttonNum, 0);
+            else
         StartCoroutine(player.GetComponent<AudioManager>().setClip(buttonNum, 0));
     }
 

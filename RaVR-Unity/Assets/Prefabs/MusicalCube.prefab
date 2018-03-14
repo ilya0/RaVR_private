@@ -124,6 +124,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4002310361626812}
+  - component: {fileID: 114118255513869566}
   m_Layer: 0
   m_Name: buttons
   m_TagString: Untagged
@@ -1369,6 +1370,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: cc8952b53acda924eb385b4a73e7b378, type: 3}
   - {fileID: 8300000, guid: 97314935792a4e64abf4e728b48bf2fe, type: 3}
   vocal: 010101000000
+  vocalPlayed: 
 --- !u!114 &114027780140340592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1395,6 +1397,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonNum: 0
   player: {fileID: 1809913364039780}
+--- !u!114 &114118255513869566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1485896138541228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c639fbd66cce6f4dab53eb9ed843b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 1341894080145280}
+  - {fileID: 1758866399059434}
+  - {fileID: 1300163696193866}
+  - {fileID: 1940588897785364}
+  - {fileID: 1108248929161926}
+  - {fileID: 1795776102046676}
+  cam: {fileID: 0}
 --- !u!114 &114183490543637436
 MonoBehaviour:
   m_ObjectHideFlags: 1
