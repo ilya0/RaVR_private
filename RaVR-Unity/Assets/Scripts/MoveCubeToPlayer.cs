@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using HoloToolkit.Unity.InputModule;
 
-public class MoveCubeToPlayer : MonoBehaviour
+public class MoveCubeToPlayer : MonoBehaviour, IInputClickHandler
 {
 
     public GameObject player; //set this by using hololens api
@@ -36,4 +37,8 @@ public class MoveCubeToPlayer : MonoBehaviour
         running = true;
     }
 
+    public void OnInputClicked(InputClickedEventData eventData)
+    {
+        running = true;
+    }
 }

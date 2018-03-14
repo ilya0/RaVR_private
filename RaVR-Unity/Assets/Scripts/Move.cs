@@ -24,7 +24,7 @@ public class Move : MonoBehaviour {
 	void Update () {
         if (timer <= 0)
             Destroy(gameObject);
-        gameObject.GetComponent<MeshRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, (timer/initTime));
+        transform.Find("cube-uv-animation").GetComponent<MeshRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, (timer/initTime));
 
         timer -= Time.deltaTime;
         float step = speed * Time.deltaTime;

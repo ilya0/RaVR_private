@@ -189,6 +189,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4049118327976180}
   - component: {fileID: 114932808316911616}
+  - component: {fileID: 65675782261819406}
+  - component: {fileID: 114814629420950824}
   m_Layer: 0
   m_Name: StageBGEmitter
   m_TagString: Untagged
@@ -664,6 +666,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65675782261819406
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691026654383028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50, y: 10, z: -20}
+  m_Center: {x: 0, y: 11.25, z: 0}
 --- !u!65 &65855193157947612
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -724,6 +738,23 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114814629420950824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691026654383028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5a0a60fbe897549ad0bfe2039f12b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HostTransform: {fileID: 0}
+  DistanceScale: 2
+  RotationMode: 0
+  PositionLerpSpeed: 0.2
+  RotationLerpSpeed: 0.2
+  IsDraggingEnabled: 1
 --- !u!114 &114932808316911616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -737,7 +768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rate: 5
   number: 3
-  cube: {fileID: 1992892642145528, guid: 2abb41e0e365ef443b21660f7465be7d, type: 2}
+  cube: {fileID: 1824871712111184, guid: 79c4c4d6b94eca74ea14d8096aeea7e5, type: 2}
 --- !u!198 &198063646035429330
 ParticleSystem:
   m_ObjectHideFlags: 1

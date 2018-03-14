@@ -222,6 +222,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Emmiter.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\SceneContentAdjuster.cs" />
     <Compile Include="Assets\HoloToolkit\Common\Scripts\CameraCache.cs" />
@@ -684,6 +685,9 @@
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\ChangeMusic.cs" />
     <Compile Include="Assets\Scripts\CubeButton.cs" />
+    <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\MoveCubeToPlayer.cs" />
+    <Compile Include="Assets\Scripts\RotateCube.cs" />
     <Compile Include="Assets\Scripts\ShowButtonsFacing.cs" />
     <Compile Include="Assets\SlowRotate.cs" />
   </ItemGroup>
