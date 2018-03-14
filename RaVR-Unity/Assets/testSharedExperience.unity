@@ -113,6 +113,42 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &306684080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 306684082}
+  - component: {fileID: 306684081}
+  m_Layer: 0
+  m_Name: Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!362 &306684081
+WorldAnchor:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306684080}
+  serializedVersion: 2
+--- !u!4 &306684082
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306684080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &483871761
 Prefab:
   m_ObjectHideFlags: 0
@@ -151,6 +187,11 @@ Prefab:
     - target: {fileID: 4229771099076470, guid: c3f91538327819d46953333d9605658b, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114993542530132652, guid: c3f91538327819d46953333d9605658b,
+        type: 2}
+      propertyPath: m_NetworkAddress
+      value: 10.123.1.166
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c3f91538327819d46953333d9605658b, type: 2}
@@ -262,11 +303,21 @@ Prefab:
     - target: {fileID: 114264326905911610, guid: 4ed3646b87204ae40968331a70c40203,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1321343032762384, guid: 4ed3646b87204ae40968331a70c40203, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114264326905911610, guid: 4ed3646b87204ae40968331a70c40203,
+        type: 2}
+      propertyPath: AnchorName
+      value: Anchor
+      objectReference: {fileID: 0}
+    - target: {fileID: 114264326905911610, guid: 4ed3646b87204ae40968331a70c40203,
+        type: 2}
+      propertyPath: AnchorOwnerIP
+      value: 10.123.1.1666
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ed3646b87204ae40968331a70c40203, type: 2}
@@ -501,7 +552,7 @@ Prefab:
     - target: {fileID: 114785130695734096, guid: 64e9ed959ae73054181074093503a1ca,
         type: 2}
       propertyPath: TagalongDistance
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64e9ed959ae73054181074093503a1ca, type: 2}
