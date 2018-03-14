@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ChangeMusic.cs" />
      <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />
      <Compile Include="Assets\HoloToolkit\Boundary\Scripts\SceneContentAdjuster.cs" />
      <Compile Include="Assets\HoloToolkit\Common\Scripts\CameraCache.cs" />
@@ -511,53 +510,9 @@
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityScaler.cs" />
      <Compile Include="Assets\HoloToolkit\UX\Scripts\UsabilityUtilities.cs" />
      <Compile Include="Assets\OnClickJoinServer.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Audio\UserSounds.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\AudioTrigger.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\FixParticleScaleToOne.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\AdjustRotationToLocal.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\AlwaysPointingUp.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\LevelControl.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\LevelDataControl.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\Puzzles\CratePuzzle.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\Puzzles\CrateScript.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\Puzzles\MineCartScript.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\Puzzles\MiningTorchScript.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\Puzzles\NumPadButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\Puzzles\NumPadPuzzle.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\ShuttleLaunch.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\TeleportScript.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\ToolTips.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\GameLogic\WinLightScript.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\ScrollUVWave.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\AnimationWhenSelected.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\BasicSharingStatus.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\DismissTutorialHandler.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\JoinSelectedSessionButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\PositionDebugButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\ResetAnchorButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\ScaleOnGaze.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\ScrollingSessionListUIController.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\ScrollSessionListButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\SessionListButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\SetTutorialText.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\StabalizationPlaneFallback.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\StartSessionButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\ToggleDebugWindow.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\ToggleSharingUIButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\TutorialNextButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\TutorialSkipButton.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\UI\WireupDebugPanel.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\Scripts\VRRoomControl.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\BulletController.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\GenericNetworkTransmitter.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\HTKNetworkManager.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\NetworkDiscoveryWithAnchors.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\SharedAnchorDebugText.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\SharedCollection.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\UNetAnchorManager.cs" />
-     <Compile Include="Assets\Prefabs\Hololense-250\Support\SharingWithUNET\Scripts\UNetSharedHologram.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\ChangeMusic.cs" />
+     <Compile Include="Assets\Scripts\CubeButton.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\HUXButtonShader.shader" />
@@ -566,16 +521,9 @@
      <None Include="Assets\HoloToolkit\UX\Shaders\unlit_vert_color.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandardInput.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\VertexColorWithLighting.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\HoloToolkitCommon.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\FastConfigurable\Shaders\FastConfigurable.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\WaterDisplacement.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\FastConfigurable\Shaders\FastConfigurable2Sided.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\atmosphereEffect.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\atmosphereEffect.shader" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\Fire.cginc" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\VertexColorWithLighting.cginc" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitNoDepthTest.shader" />
      <None Include="Assets\HoloToolkit\UX\Fonts\LICENSE.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurableTransparent.shader" />
@@ -609,7 +557,6 @@
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFMobileCommon.cginc" />
      <None Include="Assets\HoloToolkit\UX\Shaders\Occlusion.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\MovieMask.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\Fire.shader" />
      <None Include="Assets\HoloToolkit\UX\Shaders\StereoImage.shader" />
      <None Include="Assets\HoloToolkit\License.txt" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.shader" />
@@ -617,7 +564,6 @@
      <None Include="Assets\HoloToolkit\Common\Shaders\WindowOcclusion.shader" />
      <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.cginc" />
      <None Include="Assets\HoloToolkit\UX\Shaders\3DTextShader.shader" />
-     <None Include="Assets\Prefabs\Hololense-250\Support\Models\Shaders\WaterDisplacement.cginc" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
