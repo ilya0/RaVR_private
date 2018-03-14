@@ -11,19 +11,15 @@ public class CubeButton : MonoBehaviour, IInputClickHandler {
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        print("OIRJG");
-
-        int set = 0;
-        if (buttonNum + 1 > player.GetComponent<AudioManager>().oneDClip.Length / 2)
-            set = 1;
-
-        StartCoroutine(player.GetComponent<AudioManager>().setClip(set, (int)(buttonNum / 2)));
+        //    if (player.GetComponent<AudioManager>().isRunning(buttonNum))
+        //        player.GetComponent<AudioManager>().disable(buttonNum, 0);
+        //    else
+        StartCoroutine(player.GetComponent<AudioManager>().setClip(buttonNum, 0));
     }
 
     // Use this for initialization
     void Start () {
-		
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {

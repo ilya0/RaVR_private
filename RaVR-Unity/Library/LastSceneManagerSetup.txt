@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/testSampleCube.unity
+- path: Assets/thiccboisneverdie - Copy.unity
   isLoaded: 1
   isActive: 1
