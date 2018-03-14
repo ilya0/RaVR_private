@@ -35,8 +35,7 @@ During the production of the sound samples, one major issue we ran into was how 
 
 ## Accomplishments that we're proud of
 
- i really likeed doing the graphics
-
+Being able to go from absolute zero on skill with VR/AR and Unity to being able to make small edits to projects in Unity and understand the workflow invovled with making any game or realtime application, not nessicerily in AR/VR.
 
 ## What we learned
 
