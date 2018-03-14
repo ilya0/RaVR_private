@@ -11,8 +11,6 @@ public class CubeButton : MonoBehaviour, IInputClickHandler {
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        print("OIRJG");
-
         int set = 0;
         if (buttonNum + 1 > player.GetComponent<AudioManager>().oneDClip.Length / 2)
             set = 1;

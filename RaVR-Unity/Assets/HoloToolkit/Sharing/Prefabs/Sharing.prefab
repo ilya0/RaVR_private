@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ClientRole: 0
-  ServerAddress: localhost
+  ServerAddress: 10.123.1.166
   defaultSessionName: DefaultSession
   defaultRoomName: DefaultRoom
   KeepRoomAlive: 0
@@ -76,3 +76,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnchorDebugText: {fileID: 0}
   ShowDetailedLogs: 1
+  PersistentAnchors: 0
