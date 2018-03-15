@@ -1,4 +1,5 @@
 # rAvR
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/DJBoothExample.gif)
 
 rAvR is a augmented reality application for music performers and patrons to interact and create a completely unique experience.
 
