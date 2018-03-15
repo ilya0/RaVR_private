@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 4843181916730546}
   - component: {fileID: 114675532365676860}
   - component: {fileID: 65750570699674422}
+  - component: {fileID: 114028097685088292}
   m_Layer: 0
   m_Name: DJBoothBuild
   m_TagString: Untagged
@@ -3718,8 +3719,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1, y: 1.5, z: 1.5}
-  m_Center: {x: 0, y: -0.3, z: 0}
+  m_Size: {x: 2.3, y: 2, z: 1.7}
+  m_Center: {x: -0.05, y: 0.1, z: -0.2}
 --- !u!65 &65819922250428210
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -5520,6 +5521,19 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114028097685088292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435479207773860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9f33ca821d92243a1d71e699419777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drag: {fileID: 114675532365676860}
+  thiccColider: {fileID: 65750570699674422}
 --- !u!114 &114031000588001376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5577,12 +5591,12 @@ MonoBehaviour:
   - {fileID: 1562396118277562}
   - {fileID: 1852718749002646}
   oneDClip:
-  - {fileID: 8300000, guid: 047ef0ae9f5a986438f3d213e62b37b0, type: 3}
-  - {fileID: 8300000, guid: dc149ce2a60168a4b96418cd55dd081a, type: 3}
-  - {fileID: 8300000, guid: d4e5c745f885f8d4dba546c1db490913, type: 3}
-  - {fileID: 8300000, guid: 9cc2f4a0fc9f9e74cb122458ea9352fd, type: 3}
-  - {fileID: 8300000, guid: cc8952b53acda924eb385b4a73e7b378, type: 3}
-  - {fileID: 8300000, guid: 97314935792a4e64abf4e728b48bf2fe, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   vocal: 010101000000
   vocalPlayed: 
 --- !u!114 &114116249811064722
@@ -5708,12 +5722,12 @@ MonoBehaviour:
   - {fileID: 1387830301196512}
   - {fileID: 1818779981734088}
   oneDClip:
-  - {fileID: 8300000, guid: 047ef0ae9f5a986438f3d213e62b37b0, type: 3}
-  - {fileID: 8300000, guid: dc149ce2a60168a4b96418cd55dd081a, type: 3}
-  - {fileID: 8300000, guid: d4e5c745f885f8d4dba546c1db490913, type: 3}
-  - {fileID: 8300000, guid: 9cc2f4a0fc9f9e74cb122458ea9352fd, type: 3}
-  - {fileID: 8300000, guid: cc8952b53acda924eb385b4a73e7b378, type: 3}
-  - {fileID: 8300000, guid: 97314935792a4e64abf4e728b48bf2fe, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   vocal: 010101000000
   vocalPlayed: 
 --- !u!114 &114543392705010782

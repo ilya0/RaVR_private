@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/placer.unity
+- path: Assets/FixedScene.unity
   isLoaded: 1
   isActive: 1
