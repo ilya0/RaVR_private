@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 4843181916730546}
   - component: {fileID: 114675532365676860}
   - component: {fileID: 65750570699674422}
+  - component: {fileID: 114028097685088292}
   m_Layer: 0
   m_Name: DJBoothBuild
   m_TagString: Untagged
@@ -3718,8 +3719,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1, y: 1.5, z: 1.5}
-  m_Center: {x: 0, y: -0.6, z: 0}
+  m_Size: {x: 2.3, y: 2, z: 1.7}
+  m_Center: {x: -0.05, y: 0.1, z: -0.2}
 --- !u!65 &65819922250428210
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -5394,7 +5395,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &95670875334296464
@@ -5411,7 +5412,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &95689391613001714
@@ -5428,7 +5429,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &95776330848937662
@@ -5445,7 +5446,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!108 &108135834651335792
@@ -5520,7 +5521,20 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114035517762843100
+--- !u!114 &114028097685088292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1435479207773860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9f33ca821d92243a1d71e699419777, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  drag: {fileID: 114675532365676860}
+  thiccColider: {fileID: 65750570699674422}
+--- !u!114 &114031000588001376
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -5529,8 +5543,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 7
   player: {fileID: 1840405509178142}
 --- !u!114 &114044318746680390
@@ -5542,8 +5556,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6aa34b82737697a4d94147607b2073d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &114047276117945828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5553,8 +5567,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 0
   player: {fileID: 1240788726986766}
 --- !u!114 &114050866639139212
@@ -5566,8 +5580,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02a44a0a1353c654aba6f0773aaf02d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   audioSources:
   - {fileID: 1224258565194424}
   - {fileID: 1536727674217558}
@@ -5610,7 +5624,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5fe99af84861d26409f71d4d92a66a69, type: 3}
   - {fileID: 8300000, guid: 8055dae599ab65741982473c351c6fde, type: 3}
   vocal: 010101000000
-  vocalPlayed: 
+  vocalPlayed:
   clock: {fileID: 1828611789065904}
   mod: 0
 --- !u!114 &114116249811064722
@@ -5622,8 +5636,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 0
   player: {fileID: 1840405509178142}
 --- !u!114 &114128570014819408
@@ -5635,8 +5649,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 3
   player: {fileID: 1340162027326472}
 --- !u!114 &114224193917102268
@@ -5648,8 +5662,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 2
   player: {fileID: 1240788726986766}
 --- !u!114 &114322137007750632
@@ -5661,8 +5675,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 2
   player: {fileID: 1840405509178142}
 --- !u!114 &114363033071352652
@@ -5674,8 +5688,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 4
   player: {fileID: 1240788726986766}
 --- !u!114 &114390582746018354
@@ -5687,8 +5701,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 1
   player: {fileID: 1340162027326472}
 --- !u!114 &114391364003228352
@@ -5700,8 +5714,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 4
   player: {fileID: 1340162027326472}
 --- !u!114 &114478530464003260
@@ -5713,8 +5727,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02a44a0a1353c654aba6f0773aaf02d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   audioSources:
   - {fileID: 1216418070795378}
   - {fileID: 1328895268983662}
@@ -5752,7 +5766,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 41a77e4565a0dc24bade7fa9640267d2, type: 3}
   - {fileID: 8300000, guid: c38d84e20103fe842b5c01b29b53d649, type: 3}
   vocal: 010101010101
-  vocalPlayed: 
+  vocalPlayed:
   clock: {fileID: 1828611789065904}
   mod: 6
 --- !u!114 &114543392705010782
@@ -5764,8 +5778,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 5
   player: {fileID: 1340162027326472}
 --- !u!114 &114548565929164040
@@ -5777,8 +5791,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 4
   player: {fileID: 1840405509178142}
 --- !u!114 &114593185536190778
@@ -5790,8 +5804,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 2
   player: {fileID: 1340162027326472}
 --- !u!114 &114611096866107242
@@ -5803,8 +5817,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9702acf4c63940540bf5214ab0e16118, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   timesRem:
   - 0
   - 0
@@ -5835,8 +5849,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 5
   player: {fileID: 1240788726986766}
 --- !u!114 &114620838046432184
@@ -5848,8 +5862,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 02a44a0a1353c654aba6f0773aaf02d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   audioSources:
   - {fileID: 1295740829525004}
   - {fileID: 1616872082278592}
@@ -5878,7 +5892,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6415d26259b43364a8ab6ef9410601dd, type: 3}
   - {fileID: 8300000, guid: f0ddc372d0575cf42a7b7d9a999bf0e9, type: 3}
   vocal: 0000000000000000
-  vocalPlayed: 
+  vocalPlayed:
   clock: {fileID: 1828611789065904}
   mod: 12
 --- !u!114 &114675532365676860
@@ -5890,8 +5904,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d5a0a60fbe897549ad0bfe2039f12b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   HostTransform: {fileID: 0}
   DistanceScale: 2
   RotationMode: 0
@@ -5907,8 +5921,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 1
   player: {fileID: 1240788726986766}
 --- !u!114 &114698243469087522
@@ -5920,8 +5934,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 6
   player: {fileID: 1840405509178142}
 --- !u!114 &114700568508071080
@@ -5933,8 +5947,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 5
   player: {fileID: 1840405509178142}
 --- !u!114 &114700928822219200
@@ -5946,8 +5960,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 3
   player: {fileID: 1840405509178142}
 --- !u!114 &114781854863552568
@@ -5959,8 +5973,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 1
   player: {fileID: 1840405509178142}
 --- !u!114 &114790191498363882
@@ -5972,8 +5986,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6aa34b82737697a4d94147607b2073d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &114821532318779842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5983,8 +5997,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6aa34b82737697a4d94147607b2073d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &114876836530570442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5994,8 +6008,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 3
   player: {fileID: 1240788726986766}
 --- !u!114 &114879767304013878
@@ -6007,8 +6021,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34399337f6b37bb44a5cb87e09fbd2b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   player: {fileID: 0}
 --- !u!114 &114898001202178898
 MonoBehaviour:
@@ -6019,8 +6033,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 769772e51b4ca1946aee19c6174ce206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   buttonNum: 0
   player: {fileID: 1340162027326472}
 --- !u!114 &114917361533715696
@@ -6032,8 +6046,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6aa34b82737697a4d94147607b2073d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!328 &328019282418407080
 VideoPlayer:
   m_ObjectHideFlags: 1
@@ -6057,7 +6071,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -6089,7 +6103,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -6121,7 +6135,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: 
+  m_Url:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
