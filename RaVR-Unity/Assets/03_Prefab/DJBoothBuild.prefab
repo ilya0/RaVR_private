@@ -368,7 +368,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4986983753669816}
   - component: {fileID: 33074737725919608}
-  - component: {fileID: 65958872427925582}
   - component: {fileID: 23868171166338992}
   m_Layer: 0
   m_Name: DJBooth
@@ -3744,18 +3743,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4, y: 0.15, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65958872427925582
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1338937633886708}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65964581138183190
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -5885,14 +5872,14 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   sounds:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: abbc9ffc25b1e594c9db80a39ee41dcc, type: 3}
+  - {fileID: 8300000, guid: 366c143da0fae2f4aad0229e79abe974, type: 3}
+  - {fileID: 8300000, guid: 1b997750537e4f34cb9909a61d5c43fb, type: 3}
+  - {fileID: 8300000, guid: ec55011bebbabd445b438ab9caa90fcf, type: 3}
+  - {fileID: 8300000, guid: 8c81a7e4575e36c4fbcc3ae12f4a3375, type: 3}
+  - {fileID: 8300000, guid: 729376de817ddae4f814c08342f6c746, type: 3}
+  - {fileID: 8300000, guid: 6415d26259b43364a8ab6ef9410601dd, type: 3}
+  - {fileID: 8300000, guid: f0ddc372d0575cf42a7b7d9a999bf0e9, type: 3}
   vocal: 0000000000000000
   vocalPlayed: 
   clock: {fileID: 1828611789065904}
