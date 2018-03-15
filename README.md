@@ -63,6 +63,7 @@ During the production of the sound samples, one major issue we ran into was how 
 ## Accomplishments that we're proud of
 
 
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/IMG_3076.JPG)
 
 
 
@@ -74,8 +75,7 @@ Creating such a in depth project in such a short amount of time, was a huge acco
 
 ## What we learned
 
-![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/djfruity.png
-)
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/IMG_3076.JPG)
 
 * Spacial understanding.  
 * Augmented Reality development hurdles including anchor points and user interaction with gameObjects in AR. 
@@ -83,7 +83,7 @@ Creating such a in depth project in such a short amount of time, was a huge acco
 * Time management.
 * Error driven development
 * Learning what works in the augmented world
-* Working with a diverse group of indviduals
+* Working with a diverse group of individuals
 
 
 
