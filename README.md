@@ -63,7 +63,7 @@ During the production of the sound samples, one major issue we ran into was how 
 ## Accomplishments that we're proud of
 
 
-![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/IMG_3076.JPG)
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/djfruity.png)
 
 
 
