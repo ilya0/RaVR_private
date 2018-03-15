@@ -28,7 +28,7 @@ rAvR came to us, after thinking about how music, music performance and the live 
 
 ## What it does
 
-![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/DJBoothExample.gif)
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/DJInterface.png)
 
 
 rAvR now allows musicians not only to be creative musically, but allows djs and musicians to curate an entire sensory experience by allowing the fans to participate in the actual music creation. 
@@ -62,6 +62,11 @@ During the production of the sound samples, one major issue we ran into was how 
 
 ## Accomplishments that we're proud of
 
+
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/djfruity.png)
+
+
+
 Being able to go from absolutely zero on skill with VR/AR and Unity to being able to make small edits to projects in Unity and understand the workflow involved with making any game or realtime application, was a huge accomplishment for the whole group.None of our team members had experience with the hololens before the hackathon started, so all of our team members needed to learn on the fly and experiment with the development system and hololenses.
 
 Our software engineers are high school students, 16 and 14 years old, and built all of the code on the hololens.  
@@ -70,13 +75,15 @@ Creating such a in depth project in such a short amount of time, was a huge acco
 
 ## What we learned
 
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/IMG_3076.JPG)
+
 * Spacial understanding.  
 * Augmented Reality development hurdles including anchor points and user interaction with gameObjects in AR. 
 * Optimization within Hololens.  
 * Time management.
 * Error driven development
 * Learning what works in the augmented world
-* Working with a diverse group of indviduals
+* Working with a diverse group of individuals
 
 
 
