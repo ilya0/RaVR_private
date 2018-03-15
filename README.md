@@ -1,5 +1,8 @@
 # rAvR
-![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/DJBoothExample.gif)
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/Proof%20Of%20Concept%203%20v1.png)
+
+
+
 
 rAvR is a augmented reality application for music performers and patrons to interact and create a completely unique experience.
 
@@ -15,6 +18,8 @@ Also, performers can also assign various spaces and locations of a venue with dy
 
 ## Inspiration
 
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/DJBoothExample.gif)
+
 As a group of musicians, graphics designers and computer scientists, we have been seeking a new ways to experience music and live music.
 
 rAvR came to us, after thinking about how music, music performance and the live music show experience could approached differently in the context of using AR or VR. We also wanted, a new lay of interactivity between the performer and fans, in a way that could never been possible without AR or VR.
@@ -23,6 +28,7 @@ rAvR came to us, after thinking about how music, music performance and the live 
 
 ## What it does
 
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/DJBoothExample.gif)
 
 
 rAvR now allows musicians not only to be creative musically, but allows djs and musicians to curate an entire sensory experience by allowing the fans to participate in the actual music creation. 
@@ -32,10 +38,18 @@ Djs can now play music and also create innovative ways to allow fans and patrons
 
 ## How we built it
 
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/Image%20uploaded%20from%20iOS%20(1).jpg)
+
+
 During this project we used, Unity, Microsoft Hololens and C# to build the various elements in virtual environment. We used Maya, Blender, Cinema4d and Adobe After Effects for the creation of the various graphics and animations in the environments. And we used Ableton Traktor, and Fruity Loops Studio 12 to edit and create music as well as gain inspiration for dj controls and effects.
 
 
 ## Challenges we ran into
+
+![](https://github.com/ilya0/RaVR_private/blob/master/rAvR%20Media/DJBooth.PNG
+)
+
+
 
 One of the biggest challenges was considering what environment and device to build on. We initially wanted to build on a VR platform but quickly realized that using and AR setup would allow patrons and musicians to experience the music shows in live and in realtime, as well as experiencing an added lay of sensory depth. Also, this is the first time we had built anything on hololens, so it was a huge learning curve for everyone in the group.
 
